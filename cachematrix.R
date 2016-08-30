@@ -1,5 +1,5 @@
 ## https://github.com/PerryIsley/ProgrammingAssignment2
-## Commit 11: 0128373f8579f9af96ec95a42e7fdecbbe1c5548
+## Commit 12: 0128373f8579f9af96ec95a42e7fdecbbe1c5548
 ## This funition creates a certain matrix that has the ability to set and get the matrix,
 ## and then set and get the inverse.
 
@@ -21,7 +21,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 ## This function actually finds the inverse of the matrix made by makeCacheMatrix,
 ## only after it checks for an inverse previously calculated and cached. If this function
-## must still calculate it, the inverse is then set as the cahced value.
+## must still calculate it, the inverse is then set as the cached value.
 
 cacheSolve <- function(x, ...) {
   ## Return a matrix that is the inverse of 'x'
